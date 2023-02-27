@@ -12,15 +12,19 @@
 *Step - 2: Activate virtual environment*
 
   ```./.env/scripts/activate```
+
+*Step - 3: Install requirement*
+
+  ```pip install -r requirements.txt```
   
-*Step - 3: If needed make migrations* 
+*Step - 4: If needed make migrations* 
 
   ```python manage.py makemigrations accounts```
 
-*Step - 4: [Mandatory in first run] Migrate the apps*
+*Step - 5: [Mandatory in first run] Migrate the apps*
 
   ```python manage.py migrate```
 
-*Step - 5: Run Django server then open the application*
+*Step - 6: Run Django server then open the application*
 
   ```python manage.py runserver```
